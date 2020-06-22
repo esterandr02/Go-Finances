@@ -20,7 +20,7 @@
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -37,18 +37,19 @@ This project was developed by Rcketseat Bootcamp course.
 #### Backend
 -  [Typescript](https://www.typescriptlang.org/)
 -  [Node.js](https://nodejs.org/en/)
--  [Docker]()
--  []()
+-  [Docker](https://www.docker.com/)
 
 ## :warning: Prerequisites
 
 To run this aplication you need to download:
 - [Git](https://git-scm.com)
-- [React Js](https://reactjs.org/)
 - [Node.js v12.18.1](https://nodejs.org/dist/v12.18.1/node-v12.18.1-linux-x64.tar.xz)(LTS version)
-- [Yarn v1.13][yarn]
+- [Yarn v1.13][yarn] - package manager
+- [Docker with postgres database](https://hub.docker.com/_/postgres) - follow the instructions to create a conteiner that will      contains the image of postgres.
+- [React Js](https://reactjs.org/)
+
   
-## :information_source: How To Use
+## :information_source: Getting Started
 
 ```bash
 # Clone this repository
@@ -56,35 +57,34 @@ $ git clone https://github.com/esterandr02/Go-Finances
 
 # Go into the repository
 $ cd Go-Finances
+```
+### Backend
 
-# Open 2 instances of bash
-on the first: $ cd frontend
-on the second: $ cd backend
+```bash
+$ cd backend
 
-# Install dependencies
-$ yarn install (run on backend instance and on frontend instance of bash)
+# Install dependences
+$ yarn
 
-# Run Database
+# Create a Docker container
+$ sudo docker run --name gostack-postgres -e POSTGRES_PASSWORD=gostack -p 5432:5432 -d postgres
 
+# Start conteiner - (if your machine has been power off)
+$ docker start (container name/id)
 
-# Run Docker
+# Ckeck port - (if port 5432 has being used)
+$ lsof -i :5432
+$ sudo kill -9 (process that is using the port)
 
-# Run the app
-$ yarn dev:server (on backend instance)
-$ yarn start (on frontend instance)
-obs: you can look/personalize the scripts to run the app on package.json file
+# Construct database tables
+$ yarn typeorm migration:run
 
+# Start the Server
+$ yarn dev:server
+
+Now you can use the app :D
+
+obs: Ctrl + C to stop the server and the frontend too.
 ```
 
-## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/nubank-react-native/blob/master/LICENSE) for more information.
-
----
-
-Made with ♥ by Luke Morales :wave: [Get in touch!](https://www.linkedin.com/in/lukemorales/)
-
-[nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/
-[vc]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+Made with ♥ by Ester :wave: [Get in touch!](https://www.linkedin.com/in/esterandr/)
