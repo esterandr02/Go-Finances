@@ -14,17 +14,16 @@
   <img alt="github-top-language" src="https://img.shields.io/github/languages/top/esterandr02/Go-Finances">  
   <img alt="github-repo-size" src="https://img.shields.io/github/repo-size/esterandr02/Go-Finances?color=red">
   <img alt="github-last-commit" src="https://img.shields.io/github/last-commit/esterandr02/Go-Finances?color=green">
-  <img alt="github-license" src="https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet">
+  <img alt="github-repo-license" src="https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet">
 </p>
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#information_source-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-This project was developed by Rcketseat Bootcamp course.
+This project was developed by Rocketseat on Bootcamp course.
 
 ## :rocket: Technologies
 
@@ -32,7 +31,7 @@ This project was developed by Rcketseat Bootcamp course.
 -  [Typescript](https://www.typescriptlang.org/)
 -  [React Js](https://reactjs.org/)
 -  [styled-components](https://www.styled-components.com/)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-  [VS Code](https://code.visualstudio.com/) with [EditorConfig](https://editorconfig.org/) and [ESLint](https://eslint.org/docs/user-guide/getting-started)
 
 #### Backend
 -  [Typescript](https://www.typescriptlang.org/)
@@ -44,7 +43,7 @@ This project was developed by Rcketseat Bootcamp course.
 To run this aplication you need to download:
 - [Git](https://git-scm.com)
 - [Node.js v12.18.1](https://nodejs.org/dist/v12.18.1/node-v12.18.1-linux-x64.tar.xz)(LTS version)
-- [Yarn v1.13][yarn] - package manager
+- [Yarn v1.13](https://yarnpkg.com/getting-started) - package manager
 - [Docker with postgres database](https://hub.docker.com/_/postgres) - follow the instructions to create a conteiner that will      contains the image of postgres.
 - [React Js](https://reactjs.org/)
 
@@ -69,7 +68,7 @@ $ yarn
 # Create a Docker container
 $ sudo docker run --name gostack-postgres -e POSTGRES_PASSWORD=gostack -p 5432:5432 -d postgres
 
-# Start conteiner - (if your machine has been power off)
+# Start conteiner - (if your machine has been powered off)
 $ docker start (container name/id)
 
 # Ckeck port - (if port 5432 has being used)
@@ -87,4 +86,4 @@ Now you can use the app :D
 obs: Ctrl + C to stop the server and the frontend too.
 ```
 
-Made with ♥ by Ester :wave: [Get in touch!](https://www.linkedin.com/in/esterandr/)
+Made with ♥ by Ester :wave: [Get in touch!](https://www.linkedin.com/in/ester-albuquerque-3589911a6/)
