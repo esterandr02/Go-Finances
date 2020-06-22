@@ -25,6 +25,12 @@
 
 This project was developed by Rocketseat on Bootcamp course.
 
+## Show Aplication
+
+![gofinances-dashboard](https://user-images.githubusercontent.com/48167967/85332266-06d2aa00-b4ae-11ea-8c54-e732eaeee7a8.png)
+<br/>
+![gofinances-upload](https://user-images.githubusercontent.com/48167967/85332288-105c1200-b4ae-11ea-9aec-b6c44ff0eae4.png)
+
 ## :rocket: Technologies
 
 #### Frontend
@@ -42,7 +48,7 @@ This project was developed by Rocketseat on Bootcamp course.
 
 To run this aplication you need to download:
 - [Git](https://git-scm.com)
-- [Node.js v12.18.1](https://nodejs.org/dist/v12.18.1/node-v12.18.1-linux-x64.tar.xz)(LTS version)
+- [Node.js v12.18.1](https://nodejs.org/dist/v12.18.1/node-v12.18.1-linux-x64.tar.xz) - LTS version
 - [Yarn v1.13](https://yarnpkg.com/getting-started) - package manager
 - [Docker with postgres database](https://hub.docker.com/_/postgres) - follow the instructions to create a conteiner that will      contains the image of postgres.
 - [React Js](https://reactjs.org/)
