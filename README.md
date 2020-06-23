@@ -30,7 +30,7 @@ This project was developed by Rocketseat on Bootcamp course.
 <br/>
 <img alt="gofinances-upload" src="https://user-images.githubusercontent.com/48167967/85358386-f6402500-b4e9-11ea-9616-ba3eb56deeb2.png"/>
 <br/>
-<img alt="gofinances-upload-gif" src=""/>
+<img alt="gofinances-upload-gif" src="https://user-images.githubusercontent.com/48167967/85364016-9d2bbd80-b4f8-11ea-9d1a-9d29c5e7e586.gif"/>
 
 ## :rocket: Technologies
 
