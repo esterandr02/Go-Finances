@@ -64,6 +64,17 @@ $ git clone https://github.com/esterandr02/Go-Finances
 # Go into the repository
 $ cd Go-Finances
 ```
+### Frontend
+```bash
+$ cd frontend
+
+# Install dependences
+$ yarn
+
+# Start the app
+$ yarn start
+```
+
 ### Backend
 
 ```bash
