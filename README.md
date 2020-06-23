@@ -59,7 +59,7 @@ To run this aplication you need to download:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/esterandr02/Go-Finances
+$ git clone https://github.com/esterandr02/Go-Finances.git
 
 # Go into the repository
 $ cd Go-Finances
