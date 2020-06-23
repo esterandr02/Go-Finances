@@ -1,6 +1,6 @@
-<p align="right">
+<h1 align="right">
   <img alt="logo" src="frontend/src/assets/logo.svg" width="550"/>
-</p>
+</h1>
 
 <h1 align="center">
       Go Finances
@@ -26,10 +26,11 @@
 This project was developed by Rocketseat on Bootcamp course.
 
 ## Show Aplication
-
-![gofinances-dashboard](https://user-images.githubusercontent.com/48167967/85332266-06d2aa00-b4ae-11ea-8c54-e732eaeee7a8.png)
+<img alt="gofinances-dashboard" src="https://user-images.githubusercontent.com/48167967/85358383-f3453480-b4e9-11ea-9e8d-513a7a6b9fde.png"/>
 <br/>
-![gofinances-upload](https://user-images.githubusercontent.com/48167967/85332288-105c1200-b4ae-11ea-9aec-b6c44ff0eae4.png)
+<img alt="gofinances-upload" src="https://user-images.githubusercontent.com/48167967/85358386-f6402500-b4e9-11ea-9616-ba3eb56deeb2.png"/>
+<br/>
+<img alt="gofinances-upload-gif" src=""/>
 
 ## :rocket: Technologies
 
