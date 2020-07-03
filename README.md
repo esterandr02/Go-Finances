@@ -1,6 +1,6 @@
-<h1 align="right">
+<p align="right">
   <img alt="logo" src="frontend/src/assets/logo.svg" width="550"/>
-</h1>
+</p>
 
 <h1 align="center">
       Go Finances
