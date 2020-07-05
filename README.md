@@ -23,7 +23,7 @@
   <a href="#information_source-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-This project was developed by Rocketseat on Bootcamp course.
+This project was taught by Rocketseat on Bootcamp course.
 
 ## Show Aplication
 <img alt="gofinances-dashboard" src="https://user-images.githubusercontent.com/48167967/85358383-f3453480-b4e9-11ea-9e8d-513a7a6b9fde.png"/>
